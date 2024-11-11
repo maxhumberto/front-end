@@ -1,0 +1,96 @@
+header{
+    border: 1px solid rgb(75, 126, 184);
+    padding: 20px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #93f7b9; /* Cor de fundo para a página */
+    color: #cc4d4d;
+}
+
+header > h1{
+    font-family: "Doto";
+    font-size: 2.5rem;
+    border: 1px solid green;
+    text-align: center;
+    background-color: darkseagreen;
+    padding: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: blink 1s step-start infinite;
+}
+
+section{
+    border: 1px solid rgb(0, 132, 255);
+    padding: 20px;
+    background-color: #e4e4e4;
+    margin: 20px 0;
+}
+
+section > article h2{
+    text-align: center ;
+
+}
+
+
+section > h2{
+    text-align: center;
+}
+
+article{
+    display: block;
+    border: 1px solid rgb(255, 238, 0);
+}
+
+article > h3{
+    text-align: center;
+    background-color: chartreuse;
+}
+aside{
+    text-decoration: underline;
+    color: #005bb5;
+}
+
+
+
+nav a {
+    color: #4b7eb8;
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+article button:hover {
+    background-color: #b6e000;
+}
+
+article img {
+    width: 50%;
+    height: auto;
+}
+
+header, nav, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1; /* Totalmente visível */
+    }
+    25%, 75% {
+        opacity: 0; /* Invisível */
+    }
+}
+
+footer{
+    color: #0073e6;
+    text-decoration: none;
+}
+
