@@ -7,15 +7,16 @@
 </head>
 <body>
     <fieldset>
-        <legend>Cadastro de Usuário</legend>
-    <form onsubmit=""   method="get">
-       <label>Nome:</label><input type="text" name="name" /><br>
-      
-       <label>cpf:</label><input type="number" min="0" max="8"/><br>
+       <legend>Cadastro de Usuário</legend>
+       <form name="signup" target="_blank" onsubmit="alert('Enviei o formulario')" autocomplete="on" method="get" action="#">
+       <label for="name">Nome:</label><input type="text" name="name" id="" required/><br>
+       <label>e-mail:</label><input type="email" name="email" id="" required/><br>
+       
+       senha: <input type="password" name="senha" required /><br>
     </fieldset>
        <label>cargo:</label>
        <select name="role" > 
-        <option value="">Selecione o carogo</option>
+        <option value="">Selecione o cargo</option>
         <option value="admininstrativo">Administrativo</option>
         <option value="gerente">Gerente</option>
         <option value="Diretor">Diretor</option>
@@ -24,18 +25,19 @@
        </select>
        <label>range:</label><input type="range" min="0" max="100" value="90"/><br>
        <label>color:</label><input type="color" /><br>
-       <label>e-mail:</label><input type="email" /><br>
+       
        <label>URl:</label><input type="url" /><br>
        <label>data:</label><input type="date" /><br>
        <label>hora:</label><input type="time" /><br>
        <label>checkbox:</label><input type="checkbox" /><label><input type="checkbox" /></label><br>
-       <label>checkbox:</label><input type="radio" name="aceita"/><label><input type="radio" name="aceita" /></label><br>
+       <label>masculino:</label><input type="radio" name="aceita" id="" value="masculino"/><label>
+        <label>femeinino:</label> <input type="radio" name="aceita" id="" value="femeinino"/></label><br>
        <label>File:</label><input type="file" /><br>
        <label>Mensagem</label>
        <br>
        <textarea rows="10" cols="50" name="mensagem"></textarea>
-
-       <label>Button:</label><input type="button" value="enviar"/><br>
+       <br>
+       <label>Button:</label><input type="submit" value="enviar"/><br>
 
        
 
