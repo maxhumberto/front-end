@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FizzBuzz e Calculadora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Interativo: FizzBuzz e Calculadora</h1>
+
+    <!-- Seção FizzBuzz -->
+    <section>
+      <h2>FizzBuzz</h2>
+      <label for="fizzbuzz-input">Digite um número:</label>
+      <input type="number" id="fizzbuzz-input" placeholder="Digite um número" />
+      <button id="fizzbuzz-btn">Executar FizzBuzz</button>
+      <ul id="fizzbuzz-output"></ul>
+    </section>
+
+    <!-- Seção Calculadora -->
+    <section>
+      <h2>Calculadora</h2>
+      <input type="number" id="calc-num1" placeholder="Número 1" />
+      <select id="calc-operation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="number" id="calc-num2" placeholder="Número 2" />
+      <button id="calc-btn">Calcular</button>
+      <p id="calc-output"></p>
+    </section>
+  </div>
+  <script src="./js9.js"></script>
+</body>
+</html>
