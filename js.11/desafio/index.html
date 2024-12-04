@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Criar Post</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="../desafio/styles.css">
+</head>
+<body>
+    <h1>Criar Post no Blog</h1>
+
+    <form id="post-form">
+        <div class="form-group">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo" required>
+        </div>
+        <div class="form-group">
+            <label for="conteudo">Conteúdo:</label>
+            <textarea id="conteudo" name="conteudo" rows="5" required></textarea>
+        </div>
+        <button type="button" id="enviar">Criar Post</button>
+    </form>
+
+    <h2>Feedback do Post Criado:</h2>
+    <div id="feedback">
+        <!-- Feedback será exibido aqui -->
+    </div>
+
+    <script src="../desafio/exec.js"></script>
+</body>
+</html>

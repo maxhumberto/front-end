@@ -1,0 +1,78 @@
+body, h1, h2, ul, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+    color: #007BFF;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo do subtítulo */
+h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #286aa7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+/* Estilo da lista */
+ul {
+    list-style-type: none;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilo do hover nos itens da lista */
+ul li:hover {
+    background-color: #007bff;
+}
+
+#usuarios-lista{
+    list-style-type: none;
+    
+}
