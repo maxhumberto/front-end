@@ -6,6 +6,6 @@ Bem-vindo ao **Game Detona Ralph**!</p>
 
 <h2>Conheça o projeto clicando na imagem abaixo:</h2>
 
-<a href="https://github.com/maxhumberto/front-end/tree/main/desafiodio/detonaRalph">
+<https://github.com/maxhumberto/front-end/blob/main/desafiodio/detonaRalph/index.html">
   <img src="./src/images/jogo.png">
 </a>
